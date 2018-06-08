@@ -35,8 +35,8 @@ $(document).ready(function () {
         mark: true,
         dom: 'Bfrtip',
         lengthMenu: [
-            [10, 25, 50, 100, -1],
-            ['10 rows', '25 rows', '50 rows', '100 rows', 'Show All']
+            [25, 50, 100, -1],
+            ['25 rows', '50 rows', '100 rows', 'Show All']
         ],
         buttons: [
             'pageLength',
@@ -64,13 +64,13 @@ $(document).ready(function () {
                     columns: ':visible'
                 }
             },
-            {
+            /*{
                 extend: 'pdfHtml5',
                 download: 'open',
                 exportOptions: {
                     columns: ':visible'
                 }
-            },
+            },*/
             'colvis'
         ],
         columDefs: [{
