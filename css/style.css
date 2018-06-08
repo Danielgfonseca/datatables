@@ -8,7 +8,7 @@
 }
 
 thead {
-    background-color: rgba(244, 67, 54, 0.85);
+    background-color: rgba(0, 60, 255, 0.85);
     color: #fff;
 }
 
@@ -19,4 +19,9 @@ mark {
 
 button.dt-button, div.dt-button, a.dt-button {
     padding: 0.3em 0.3em;
+}
+
+.bg-4 { 
+    background-color: #2f2f2f;
+    color: #ffffff;
 }
